@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repos/yasimsbml/!svn/ver/3/yasimSBML/doc
+END
+Doxyfile-html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/yasimsbml/!svn/ver/5/yasimSBML/doc/Doxyfile-html
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/yasimsbml/!svn/ver/3/yasimSBML/doc/CMakeLists.txt
+END
+FindDoxygen.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/yasimsbml/!svn/ver/3/yasimSBML/doc/FindDoxygen.cmake
+END

@@ -1,0 +1,122 @@
+SBML Level : 2, version : 3
+
+Etat des especes :
+
+Espece : AcetylCoa, Quantite : 0
+reaction _transition_B : ratio 100.00%
+
+Espece : Malate_mito, Quantite : 0
+reaction _transition_A : ratio 100.00%
+
+Espece : Acetate, Quantite : 0
+Espece : NADH, Quantite : 2000
+reaction _transition_18 : ratio 100.00%
+reaction _transition_16 : ratio 100.00%
+reaction _transition_6 : ratio 0.00%
+
+Espece : Succinate_2, Quantite : 0
+Espece : NADPH, Quantite : 2000
+Espece : NADPplus, Quantite : 2000
+reaction _transition_22 : ratio 30.00%
+
+Espece : Pyruvate, Quantite : 0
+reaction _transition_68 : ratio 100.00%
+
+Espece : Succinate_1, Quantite : 0
+Espece : Fumarate, Quantite : 0
+reaction _transition_18 : ratio 100.00%
+
+Espece : Malate, Quantite : 0
+reaction _transition_70 : ratio 20.00%
+reaction _transition_22 : ratio 30.00%
+reaction _transition_17 : ratio 50.00%
+
+Espece : Oxac, Quantite : 0
+reaction _transition_16 : ratio 100.00%
+
+Espece : PEP, Quantite : 0
+reaction _transition_13 : ratio 15.00%
+reaction _transition_15 : ratio 15.00%
+reaction _transition_14 : ratio 70.00%
+
+Espece : ATP_2, Quantite : 2000
+Espece : ATP, Quantite : 2000
+reaction _transition_3 : ratio 100.00%
+reaction _transition_1 : ratio 100.00%
+
+Espece : ADP_2, Quantite : 4000
+reaction _transition_13 : ratio 15.00%
+reaction _transition_9 : ratio 50.00%
+
+Espece : PGA, Quantite : 0
+reaction _transition_11_12 : ratio 100.00%
+
+Espece : ADP, Quantite : 2000
+reaction _transition_15 : ratio 15.00%
+reaction _transition_14 : ratio 70.00%
+reaction _transition_10 : ratio 50.00%
+reaction _transition_7 : ratio 100.00%
+
+Espece : NADplus, Quantite : 2000
+reaction _transition_8 : ratio 100.00%
+
+Espece : BPGA, Quantite : 0
+reaction _transition_9 : ratio 50.00%
+reaction _transition_10 : ratio 50.00%
+
+Espece : Glycerol, Quantite : 0
+Espece : Gly_3_P, Quantite : 0
+reaction _transition_7 : ratio 100.00%
+
+Espece : G_3_P, Quantite : 0
+reaction _transition_8 : ratio 100.00%
+
+Espece : DHAP, Quantite : 0
+reaction _transition_6 : ratio 0.00%
+reaction _transition_5 : ratio 100.00%
+
+Espece : FBP, Quantite : 0
+reaction _transition_4 : ratio 100.00%
+
+Espece : Fructose_6_phosphate, Quantite : 0
+reaction _transition_3 : ratio 100.00%
+
+Espece : Glucose_6_phosphate, Quantite : 0
+reaction _transition_2 : ratio 50.00%
+
+Espece : Dglucose, Quantite : 1000
+reaction _transition_1 : ratio 100.00%
+
+
+Debut de simulation ...
+Fin de simulation...
+
+Etat des especes :
+Espece : AcetylCoa, Quantite : 0
+Espece : Malate_mito, Quantite : 0
+Espece : Acetate, Quantite : 979
+Espece : NADH, Quantite : 1835
+Espece : Succinate_2, Quantite : 311
+Espece : NADPH, Quantite : 2434
+Espece : NADPplus, Quantite : 1566
+Espece : Pyruvate, Quantite : 0
+Espece : Succinate_1, Quantite : 710
+Espece : Fumarate, Quantite : 0
+Espece : Malate, Quantite : 0
+Espece : Oxac, Quantite : 0
+Espece : PEP, Quantite : 0
+Espece : ATP_2, Quantite : 3274
+Espece : ATP, Quantite : 2998
+Espece : ADP_2, Quantite : 2726
+Espece : PGA, Quantite : 0
+Espece : ADP, Quantite : 1002
+Espece : NADplus, Quantite : 2165
+Espece : BPGA, Quantite : 0
+Espece : Glycerol, Quantite : 0
+Espece : Gly_3_P, Quantite : 0
+Espece : G_3_P, Quantite : 0
+Espece : DHAP, Quantite : 0
+Espece : FBP, Quantite : 0
+Espece : Fructose_6_phosphate, Quantite : 0
+Espece : Glucose_6_phosphate, Quantite : 0
+Espece : Dglucose, Quantite : 0

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/repos/yasimsbml/!svn/ver/3/yasimSBML/src
+END
+yasimSBML.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/yasimsbml/!svn/ver/5/yasimSBML/src/yasimSBML.c
+END
+simulation.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/yasimsbml/!svn/ver/5/yasimSBML/src/simulation.c
+END
+especes.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/yasimsbml/!svn/ver/5/yasimSBML/src/especes.c
+END

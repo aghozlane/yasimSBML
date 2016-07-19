@@ -1,0 +1,107 @@
+/**
+ * This file is part of yasimSBML (http://www.labri.fr/perso/ghozlane/metaboflux/about/yasimSBML.php)
+ * Copyright (C) 2010 Amine Ghozlane from LaBRI and University of Bordeaux 1
+ *
+ * yasimSBML is free software: you can redistribute it and/or modify
+ * it under the terms of the Lesser GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * yasimSBML is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * \file simulation.h
+ * \brief Simulate a petri net
+ * \author {Amine Ghozlane}
+ * \version 2.0
+ * \date 27 octobre 2009
+ */
+#ifndef SIMULATION_H_
+#define SIMULATION_H_
+
+/* SBML */
+#define OK -1
+#define END 0
+#define PURSUE 1
+
+
+/* Structure de test des reactions */
+/**
+* \struct TestReaction
+* \brief Structure used to test reactions
+*/
+typedef struct TestReaction{
+  Reaction_t **tabReactions;  /*!< Stock temporairement une reaction */
+  int *minStepTab; /*!< Stock le nombre de realisation possible pour cette reaction */
+}TestReaction,*pTestReaction;
+
+/* Structure contenant toutes les informations issues des simulations */
+/**
+* \struct Score
+* \brief Structure containing all information from simulations
+*/
+typedef struct Score
+{
+  char **name; /*!< Molecules id */
+  double *quantite; /*!< Quantity of molecules */
+}Score, *pScore;
+
+/* Initialisation de la quantite des especes */
+void SBML_initEspeceAmounts(Model_t *, pEspeces, int);
+
+/* Initialisation des reactions et des ratios auquelles participent chaque espece */
+void SBML_setReactions(Model_t *, pEspeces, int, int);
+
+/* Fonction temporaire */
+double SBML_evalExpression(const char *);
+
+/* Determine le nombre de reaction possible a partir de la quantite des reactifs */
+int SBML_checkQuantite(Model_t *, Reaction_t *, int nbEspeces, pEspeces);
+
+/* Determine aleatoire la reaction a realiser pour les noeuds de plusieurs reactions */
+Reaction_t * SBML_reactChoice(pEspeces, const gsl_rng *, int);
+
+/* Simulation d'une transision discrete */
+void SBML_reaction(Model_t *, pEspeces, Reaction_t *, int);
+
+/* Alloue la memoire necessaire a la struture de test des reactions */
+void SBML_allocTest(pTestReaction, int);
+
+/* Libere la memoire allouee a la struture de test des reactions */
+void SBML_freeTest(pTestReaction);
+
+/* Estimation du nombre de reaction realisable par reaction */
+int SBML_EstimationReaction(Model_t *, pTestReaction, pEspeces, int, int);
+
+/* Simulation des reactions */
+int SBML_simulate( Model_t *, pEspeces, const gsl_rng *, pTestReaction, int,  int);
+
+/* Simulation du reseau metabolique */
+void compute_simulation(Model_t *);
+
+/* Addition des scores */
+void SBML_score_add(pScore, pScore, int);
+
+/* Moyenne des resultats */
+void SBML_score_mean(pScore, int, int);
+
+/* Allocation de la structure de score */
+pScore SBML_scoreAlloc(int);
+
+/* Libere la memoire alloue a la structure de score */
+void SBML_scoreFree(pScore, int);
+
+/* Affiche le score moyen */
+void SBML_score_print(pScore, int);
+
+/* Simulation du reseau metabolique  */
+extern void SBML_compute_simulation_mean(Model_t *, int);
+
+#endif /* SIMULATION_H_ */

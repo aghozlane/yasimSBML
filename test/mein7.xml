@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
+  <model id="unnamed4">
+    <listOfCompartments>
+      <compartment id="compartment" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="P_0" compartment="compartment" initialAmount="1000" hasOnlySubstanceUnits="true"/>
+      <species id="P_1" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="P_2" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="P_3" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="ATP" compartment="compartment" initialAmount="1000" hasOnlySubstanceUnits="true"/>
+      <species id="P_6" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="ADP" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="T_0" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 10 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="T_1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_0"/>
+          <speciesReference species="ATP"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 20 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="T_2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_0"/>
+          <speciesReference species="ATP"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_3"/>
+          <speciesReference species="ADP"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 70 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="T_3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_3"/>
+          <speciesReference species="ATP"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_6"/>
+          <speciesReference species="ADP"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 100 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,1 @@
+/usr/bin/gcc     CMakeFiles/yasimSBML.exe.dir/src/yasimSBML.c.o CMakeFiles/yasimSBML.exe.dir/src/especes.c.o CMakeFiles/yasimSBML.exe.dir/src/simulation.c.o  -o bin/yasimSBML.exe -rdynamic -lm -L/usr/local/lib -lgsl -lgslcblas -lm -lxml2 /usr/local/lib/libsbml.so -Wl,-rpath,/usr/local/lib 

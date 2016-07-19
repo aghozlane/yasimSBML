@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
+  <model id="unnamed2">
+    <listOfCompartments>
+      <compartment id="compartment" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="P_4" compartment="compartment" initialAmount="1000" hasOnlySubstanceUnits="true"/>
+      <species id="ATP" compartment="compartment" initialAmount="1000" hasOnlySubstanceUnits="true"/>
+      <species id="ADP" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="P_7" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="P_8" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+      <species id="P_9" compartment="compartment" initialAmount="0" hasOnlySubstanceUnits="true"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="T_0" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_7"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn> 0.1 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="T_1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_4"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_8"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn> 0.3 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="T_2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="P_4"/>
+          <speciesReference species="ATP"/>
+	</listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ADP"/>
+          <speciesReference species="P_9"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn> 0.6 </cn>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

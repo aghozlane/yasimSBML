@@ -1,0 +1,2 @@
+/home/amine/workspace/yasimSBML/doc/CMakeFiles/html.dir
+/home/amine/workspace/yasimSBML/CMakeFiles/yasimSBML.exe.dir

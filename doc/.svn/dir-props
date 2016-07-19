@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 54
+Doxyfile-html
+Makefile
+cmake_install.cmake
+CMakeFiles
+
+END

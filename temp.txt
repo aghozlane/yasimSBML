@@ -1,0 +1,185 @@
+SBML Level : 2, version : 3
+espece: AcetylCoa, compartiment : compartment
+espece: Malate_mito, compartiment : compartment
+espece: Acetate, compartiment : compartment
+espece: NADH, compartiment : compartment
+espece: Succinate_2, compartiment : compartment
+espece: NADPH, compartiment : compartment
+espece: NADPplus, compartiment : compartment
+espece: Pyruvate, compartiment : compartment
+espece: Succinate_1, compartiment : compartment
+espece: Fumarate, compartiment : compartment
+espece: Malate, compartiment : compartment
+espece: Oxac, compartiment : compartment
+espece: PEP, compartiment : compartment
+espece: ATP_2, compartiment : compartment
+espece: ATP, compartiment : compartment
+espece: ADP_2, compartiment : compartment
+espece: PGA, compartiment : compartment
+espece: ADP, compartiment : compartment
+espece: NADplus, compartiment : compartment
+espece: BPGA, compartiment : compartment
+espece: Glycerol, compartiment : compartment
+espece: Gly_3_P, compartiment : compartment
+espece: G_3_P, compartiment : compartment
+espece: DHAP, compartiment : compartment
+espece: FBP, compartiment : compartment
+espece: Fructose_6_phosphate, compartiment : compartment
+espece: Glucose_6_phosphate, compartiment : compartment
+espece: Dglucose, compartiment : compartment
+Reactif :Quantite de ref 10 :0.000000 
+Reactif :Quantite de ref 7 :0.000000 
+Reactif :Quantite de ref 0 :0.000000 
+Reactif :Quantite de ref 1 :0.000000 
+Reactif :Quantite de ref 6 :2000.000000 
+Reactif :Quantite de ref 10 :0.000000 
+Reactif :Quantite de ref 15 :4000.000000 
+Reactif :Quantite de ref 12 :0.000000 
+Reactif :Quantite de ref 17 :2000.000000 
+Reactif :Quantite de ref 12 :0.000000 
+Reactif :Quantite de ref 3 :2000.000000 
+Reactif :Quantite de ref 9 :0.000000 
+Reactif :Quantite de ref 10 :0.000000 
+Reactif :Quantite de ref 3 :2000.000000 
+Reactif :Quantite de ref 11 :0.000000 
+Reactif :Quantite de ref 17 :2000.000000 
+Reactif :Quantite de ref 12 :0.000000 
+Reactif :Quantite de ref 16 :0.000000 
+Reactif :Quantite de ref 15 :4000.000000 
+Reactif :Quantite de ref 19 :0.000000 
+Reactif :Quantite de ref 17 :2000.000000 
+Reactif :Quantite de ref 19 :0.000000 
+Reactif :Quantite de ref 18 :2000.000000 
+Reactif :Quantite de ref 22 :0.000000 
+Reactif :Quantite de ref 17 :2000.000000 
+Reactif :Quantite de ref 21 :0.000000 
+Reactif :Quantite de ref 3 :2000.000000 
+Reactif :Quantite de ref 23 :0.000000 
+Reactif :Quantite de ref 23 :0.000000 
+Reactif :Quantite de ref 24 :0.000000 
+Reactif :Quantite de ref 14 :2000.000000 
+Reactif :Quantite de ref 25 :0.000000 
+Reactif :Quantite de ref 26 :0.000000 
+Reactif :Quantite de ref 14 :2000.000000 
+Reactif :Quantite de ref 27 :1000.000000 
+
+Etat des especes :
+
+Compartiment : compartment, Espece : AcetylCoa, Quantite : 0
+reaction _transition_B : ratio 100.00%
+
+Compartiment : compartment, Espece : Malate_mito, Quantite : 0
+reaction _transition_A : ratio 100.00%
+
+Compartiment : compartment, Espece : Acetate, Quantite : 0
+Compartiment : compartment, Espece : NADH, Quantite : 2000
+reaction _transition_18 : ratio 100.00%
+reaction _transition_16 : ratio 100.00%
+reaction _transition_6 : ratio 0.00%
+
+Compartiment : compartment, Espece : Succinate_2, Quantite : 0
+Compartiment : compartment, Espece : NADPH, Quantite : 2000
+Compartiment : compartment, Espece : NADPplus, Quantite : 2000
+reaction _transition_22 : ratio 30.00%
+
+Compartiment : compartment, Espece : Pyruvate, Quantite : 0
+reaction _transition_68 : ratio 100.00%
+
+Compartiment : compartment, Espece : Succinate_1, Quantite : 0
+Compartiment : compartment, Espece : Fumarate, Quantite : 0
+reaction _transition_18 : ratio 100.00%
+
+Compartiment : compartment, Espece : Malate, Quantite : 0
+reaction _transition_70 : ratio 20.00%
+reaction _transition_22 : ratio 30.00%
+reaction _transition_17 : ratio 50.00%
+
+Compartiment : compartment, Espece : Oxac, Quantite : 0
+reaction _transition_16 : ratio 100.00%
+
+Compartiment : compartment, Espece : PEP, Quantite : 0
+reaction _transition_13 : ratio 15.00%
+reaction _transition_15 : ratio 15.00%
+reaction _transition_14 : ratio 70.00%
+
+Compartiment : compartment, Espece : ATP_2, Quantite : 2000
+Compartiment : compartment, Espece : ATP, Quantite : 2000
+reaction _transition_3 : ratio 100.00%
+reaction _transition_1 : ratio 100.00%
+
+Compartiment : compartment, Espece : ADP_2, Quantite : 4000
+reaction _transition_13 : ratio 15.00%
+reaction _transition_9 : ratio 50.00%
+
+Compartiment : compartment, Espece : PGA, Quantite : 0
+reaction _transition_11_12 : ratio 100.00%
+
+Compartiment : compartment, Espece : ADP, Quantite : 2000
+reaction _transition_15 : ratio 15.00%
+reaction _transition_14 : ratio 70.00%
+reaction _transition_10 : ratio 50.00%
+reaction _transition_7 : ratio 100.00%
+
+Compartiment : compartment, Espece : NADplus, Quantite : 2000
+reaction _transition_8 : ratio 100.00%
+
+Compartiment : compartment, Espece : BPGA, Quantite : 0
+reaction _transition_9 : ratio 50.00%
+reaction _transition_10 : ratio 50.00%
+
+Compartiment : compartment, Espece : Glycerol, Quantite : 0
+Compartiment : compartment, Espece : Gly_3_P, Quantite : 0
+reaction _transition_7 : ratio 100.00%
+
+Compartiment : compartment, Espece : G_3_P, Quantite : 0
+reaction _transition_8 : ratio 100.00%
+
+Compartiment : compartment, Espece : DHAP, Quantite : 0
+reaction _transition_6 : ratio 0.00%
+reaction _transition_5 : ratio 100.00%
+
+Compartiment : compartment, Espece : FBP, Quantite : 0
+reaction _transition_4 : ratio 100.00%
+
+Compartiment : compartment, Espece : Fructose_6_phosphate, Quantite : 0
+reaction _transition_3 : ratio 100.00%
+
+Compartiment : compartment, Espece : Glucose_6_phosphate, Quantite : 0
+reaction _transition_2 : ratio 50.00%
+
+Compartiment : compartment, Espece : Dglucose, Quantite : 1000
+reaction _transition_1 : ratio 100.00%
+
+
+Debut de simulation ...
+Fin de simulation...
+
+Etat des especes :
+Compartiment : compartment, Espece : AcetylCoa, Quantite : 0
+Compartiment : compartment, Espece : Malate_mito, Quantite : 0
+Compartiment : compartment, Espece : Acetate, Quantite : 1018
+Compartiment : compartment, Espece : NADH, Quantite : 1861
+Compartiment : compartment, Espece : Succinate_2, Quantite : 268
+Compartiment : compartment, Espece : NADPH, Quantite : 2443
+Compartiment : compartment, Espece : NADPplus, Quantite : 1557
+Compartiment : compartment, Espece : Pyruvate, Quantite : 0
+Compartiment : compartment, Espece : Succinate_1, Quantite : 714
+Compartiment : compartment, Espece : Fumarate, Quantite : 0
+Compartiment : compartment, Espece : Malate, Quantite : 0
+Compartiment : compartment, Espece : Oxac, Quantite : 0
+Compartiment : compartment, Espece : PEP, Quantite : 0
+Compartiment : compartment, Espece : ATP_2, Quantite : 3303
+Compartiment : compartment, Espece : ATP, Quantite : 2996
+Compartiment : compartment, Espece : ADP_2, Quantite : 2697
+Compartiment : compartment, Espece : PGA, Quantite : 0
+Compartiment : compartment, Espece : ADP, Quantite : 1004
+Compartiment : compartment, Espece : NADplus, Quantite : 2139
+Compartiment : compartment, Espece : BPGA, Quantite : 0
+Compartiment : compartment, Espece : Glycerol, Quantite : 0
+Compartiment : compartment, Espece : Gly_3_P, Quantite : 0
+Compartiment : compartment, Espece : G_3_P, Quantite : 0
+Compartiment : compartment, Espece : DHAP, Quantite : 0
+Compartiment : compartment, Espece : FBP, Quantite : 0
+Compartiment : compartment, Espece : Fructose_6_phosphate, Quantite : 0
+Compartiment : compartment, Espece : Glucose_6_phosphate, Quantite : 0
+Compartiment : compartment, Espece : Dglucose, Quantite : 0
